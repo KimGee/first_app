@@ -18,3 +18,9 @@ gem 'jbuilder', '1.0.2'
 group :doc do
     gem 'sdoc', '0.3.20', require: false
 end
+
+# Heroku
+group :production do
+    gem 'pg', '~> 0.17.1'
+    gem 'rails_12factor', '~> 0.0.2'
+end
