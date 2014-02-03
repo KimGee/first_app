@@ -1,4 +1,14 @@
 FirstApp::Application.routes.draw do
+  get "ccsf_rails/index"
+  get "ccsf_rails/links"
+  get "ccsf_rails/about"
+  get "welcome2/hello"
+  get "welcome2/login"
+  get "welcome2/sign_out"
+  get "welcome2/about"
+  get "welcome2/bio"
+  get "welcome2/mission_statement"
+  get "welcome2/index"
   get 'welcome/index'
   root 'welcome#index'
 
